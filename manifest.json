@@ -1,9 +1,9 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Docs / TGB Bot / MUACM",
+  "name": "Documentation for The Great Bot of MUACM - Discord Bot docs for how to use and setup",
   "icons": [
     {
-      "src": "favicon.ico",
+      "src": "logo.ico",
       "sizes": "64x64 32x32 24x24 16x16",
       "type": "image/x-icon"
     },
