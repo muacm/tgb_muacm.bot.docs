@@ -1,0 +1,30 @@
+div.HowToUseComponent {
+
+  > table.commandTable {
+    margin-right: auto;
+    margin-left: auto;
+
+    tr.rowHeading {
+      text-align: center;
+      background-color: rgb(108, 108, 255);
+      
+      
+      > th {
+        padding: 0.6em;
+      }
+
+    }
+
+    > tr.commandRow {
+      text-align: center;
+      
+      > td {
+        padding: 0.4em;
+
+      }
+
+    }
+
+  }
+
+}

@@ -3,6 +3,7 @@ import React from "react";
 
 // importing Logo as component
 import BotLogo from "../../Assets/logo.png";
+import HowToUseComponent from "../../Components/HowToUse/HowToUse";
 
 // importing css modules
 import "../../Styles/main.css";
@@ -40,7 +41,7 @@ function HomeComponent() {
 
       {/* Introduction section */}
       <div className="Introduction">
-        <h3 className="ContentHeadline">
+        <h3>
           ➼ Introduction
         </h3>
         <div className="content">
@@ -54,6 +55,9 @@ function HomeComponent() {
       
       </div>
 
+      {/* How to use component - main docs */}
+      <HowToUseComponent />
+      
     </div>
   )
 }

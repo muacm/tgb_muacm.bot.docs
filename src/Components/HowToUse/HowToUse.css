@@ -1,1 +1,22 @@
-/* No CSS *//*# sourceMappingURL=HowToUse.css.map */
+div.HowToUseComponent > table.commandTable {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+div.HowToUseComponent > table.commandTable tr.rowHeading {
+  text-align: center;
+  background-color: #6c6cff;
+}
+
+div.HowToUseComponent > table.commandTable tr.rowHeading > th {
+  padding: 0.6em;
+}
+
+div.HowToUseComponent > table.commandTable > tr.commandRow {
+  text-align: center;
+}
+
+div.HowToUseComponent > table.commandTable > tr.commandRow > td {
+  padding: 0.4em;
+}
+/*# sourceMappingURL=HowToUse.css.map */
