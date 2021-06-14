@@ -1,0 +1,30 @@
+div.HomeComponent {
+  text-align: center;
+}
+
+div.HomeComponent > img.logo {
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+}
+
+div.HomeComponent > div.LinksLayer {
+  text-align: center;
+}
+
+div.HomeComponent div.Introduction {
+  margin-top: 4em;
+  margin-bottom: 2em;
+}
+
+div.HomeComponent div.Introduction > div.content {
+  text-align: center;
+}
+
+div.HomeComponent div.Introduction > div.content > p {
+  margin-right: auto;
+  margin-left: auto;
+  width: 56%;
+  text-align: justify !important;
+}
+/*# sourceMappingURL=Home.css.map */
