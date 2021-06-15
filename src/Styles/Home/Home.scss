@@ -1,0 +1,30 @@
+div.HomeComponent {
+  
+  > img.logo {
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+  }
+
+  text-align: center;
+
+  > div.LinksLayer {
+    text-align: center;
+  }
+
+  div.Introduction {
+    margin-top: 4em;
+    margin-bottom: 2em;
+
+    > div.content {
+      text-align: center;
+
+      > p {
+        margin-right: auto;
+        margin-left: auto;
+        width: 56%;
+        text-align: justify !important;
+      }
+    }
+  }
+}
